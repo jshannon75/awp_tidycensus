@@ -3,6 +3,8 @@ Working with multiple census variables using tidycensus
 Jerry Shannon
 January 29, 2018
 
+[Root github directory for data files](https://github.com/jshannon75/awp_tidycensus)
+
 Introduction
 ------------
 

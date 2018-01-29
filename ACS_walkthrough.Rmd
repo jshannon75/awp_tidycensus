@@ -9,6 +9,8 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+[Root github directory for data files](https://github.com/jshannon75/awp_tidycensus)
+
 ## Introduction
 
 For the last several years, I've been doing work with the [Athens Wellbeing Project](http://www.athenswellbeingproject.org) (AWP) to collect a public database of variables about the living conditions in Athens-Clarke County, Georgia. This database includes both secondary and primary data, including a systematic survey of over 1,300 residents in fall 2016. My students have helped with the secondary data collection, which has primarily been data from the U.S. Census [American Community Survey](https://www.census.gov/programs-surveys/acs), though it includes variables from the county government and some other online sources. Our existing dataset is available in [this Github repo](https://github.com/jshannon75/awp).
@@ -60,7 +62,7 @@ df<-read_csv("ACS_data.csv") %>%
 
 The "geometry=TRUE" parameter includes a simple features version of the tract geometry, which is useful. But it makes manipulating the data difficult, especially with over 200,000 rows. So I extract that column into a separate dataframe (and geojson) that I can join in later if I want. For this post, I've already extracted and simplified the column, so I'll load it in in that processed form.
 
-```{r geojson, message=FALSE}
+```{r geojson, message=FALSE, warning=FALSE}
 # df_geom<-df %>%
 #  select(GEOID,NAME,geometry)
 # df_geom<-unique(df_geom)
