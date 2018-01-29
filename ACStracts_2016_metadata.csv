@@ -1,0 +1,105 @@
+variable,var_name,description,var_normalize,var_group
+B01003_001,TotPop,Total population estimate,99999,TotPop
+B03002_003,WhiteNH ,White non-hispanic population,TotPop,Rce_WhtNH 
+B03002_004,BlackNH ,Black non-hispanic pouplation,TotPop,Rce_BlkNH
+B03002_006,AsianNH ,Asian non-hispanic population,TotPop,Rce_AsnNH
+B03002_012,Hisp ,Hispanic/latinx population,TotPop,Rce_Hisp
+B03002_005,Am_IndNH,American Indian/non-hispanic population,TotPop,Rce_AI
+B03002_007,HPacIslNH,Hawaiian/Pacific Islander population,TotPop,Rce_HPI
+B03002_008,OthRacNH,Other race non-hispanic,TotPop,Rce_OthNH
+B01001_003,Age05MA,"Male, Age under 5 years",TotPop,Age05
+B01001_027,Age05FA,"Female, Age under 5 years",TotPop,Age05
+B01001_003,Age05M,"Male, Age under 5 years",TotPop,AgeU18
+B01001_004,Age09M,"Male, Age 5-9 years",TotPop,AgeU18
+B01001_005,Age14M,"Male, Age 10-14 years",TotPop,AgeU18
+B01001_006,Age17M,"Male, Age 15-17 years",TotPop,AgeU18
+B01001_027,Age05F,"Female, Age under 5 years",TotPop,AgeU18
+B01001_028,Age09F,"Female, Age 5-9 years",TotPop,AgeU18
+B01001_029,Age14F,"Female, Age 10-14 years",TotPop,AgeU18
+B01001_030,Age17F,"Female, Age 15-17 years",TotPop,AgeU18
+B01001_044,Age65F,"Female, 65-66 years",TotPop,AgeO65
+B01001_045,Age67F,"Female, 67-69 years",TotPop,AgeO65
+B01001_046,Age70F,"Female, 70-74 years",TotPop,AgeO65
+B01001_047,Age75F,"Female, 75-79 years",TotPop,AgeO65
+B01001_048,Age80F,"Female, 80-84 years",TotPop,AgeO65
+B01001_049,Age85F,"Female, Age 85 and older",TotPop,AgeO65
+B01001_020,Age65M,"Male, 65-66 years",TotPop,AgeO65
+B01001_021,Age67M,"Male, 67-69 years",TotPop,AgeO65
+B01001_022,Age70M,"Male, 70-74 years",TotPop,AgeO65
+B01001_023,Age75M,"Male, 75-79 years",TotPop,AgeO65
+B01001_024,Age80M,"Male, 80-84 years",TotPop,AgeO65
+B01001_025,Age85M,"Male, Age 85 and older",TotPop,AgeO65
+B27003_009,Age18_24M,Male 18-24,TotPop,Age18_24
+B27003_037,Age18_24F,Female 18-24,TotPop,Age18_24
+C18130_002,Pov_Und18,Poverty under 18,TotPop,Pov_Und18
+C18130_016,Pov_Ov65,Poverty over 65,TotPop,Pov_Ov65
+B27020_003,HInsur_Nat,Has health insurance native born,TotPop,HInsur_Nat
+B27020_009,HInsur_FBNat,Has health insurance foreign born and naturalized,TotPop,HInsur_FBNat
+B27020_014,HInsur_FBNC,Has health insurance foreign born non-citizen,TotPop,HInsur_FBNC
+B25001_001,HousUnits,Total housing units,99999,HousUnits
+B25008_001,HousPop,Total population in housing units,99999,HousPop
+B25008_002,HousOwn,Total population in owner occupied housing,HousPop,HousOwn
+B25008_003,HousRent,Total population in renter occupied housing,HousPop,HousRent
+B25070_001,RentPop,Total population for rent/income ratio,99999,RentPop
+B25070_007,Rent30_35pct,Gross rent is 30-35% of income,RentPop,Rent30
+B25070_008,Rent35_40pct,Gross rent is 35-40% of income,RentPop,Rent30
+B25070_009,Rent40_50pct,Gross rent is 40-50% of income,RentPop,Rent30
+B25070_010,Rent50pct,Gross rent is >50% of income,RentPop,Rent30
+C18120_001,Empl_total,Total population for employment,99999,Empl_total
+C18120_002,Empl_labor,Total population in labor force,Empl_total,Empl_labor
+C18120_006,Empl_unemp,Total population unemployed,Empl_total,Empl_unemp
+B14007_001,Sch_totpop,Total population for education,99999,Sch_totpop
+B14007_003,Sch_nurs,Total enrolled in nursery school,Sch_totpop,Sch_Kpre
+B14007_004,Sch_kind,Total enrolled in kindergarten,Sch_totpop,Sch_Kpre
+B14007_017,Sch_ugrad,Total in undergraduate,Sch_totpop,Sch_ugrad
+B14007_018,Sch_grad,Total in grad school,Sch_totpop,Sch_grad
+B08141_001,Trn_totpop,Total population for means of transportation,99999,Trn_totpop
+B08141_006,Trn_car,"Commute: used car, truck, or van alone",Trn_totpop,Trn_car
+B08141_011,Trn_carpool,Commute: carpooled in car,Trn_totpop,Trn_carpool
+B08141_016,Trn_pub,Commute: used public transit,Trn_totpop,Trn_pub
+B08141_021,Trn_walk,Walked to work,Trn_totpop,Trn_walk
+B08141_026,Trn_taxi,"Commute: other--taxi, motorcycle, or bicycle",Trn_totpop,Trn_taxi
+B08141_031,Trn_home,Commute: Worked at home,Trn_totpop,Trn_home
+B08141_002,Trn_noveh,Commute: no available vehicle,Trn_totpop,Trn_noveh
+B19001_001,Inc_totpop,Total population for income,99999,Inc_totpop
+B19001_002,Inc_10K,"Houshold income < $10,000",Inc_totpop,Inc_10K
+B19001_003,Inc10K_14K,"Houshold income $10,000 - $14,999",Inc_totpop,Inc10K_24K
+B19001_004,Inc15K_19K,"Houshold income $15,000 - $19,999",Inc_totpop,Inc10K_24K
+B19001_005,Inc20K_24K,"Houshold income $20,000 - $24,999",Inc_totpop,Inc10K_24K
+B19001_006,Inc25K_29K,"Houshold income $25,000 - $29,999",Inc_totpop,Inc25K_49K
+B19001_007,Inc30K_34K,"Houshold income $30,000 - $34,999",Inc_totpop,Inc25K_49K
+B19001_008,Inc35K_39K,"Houshold income $35,000 - $39,999",Inc_totpop,Inc25K_49K
+B19001_009,Inc40K_44K,"Houshold income $40,000 - $44,999",Inc_totpop,Inc25K_49K
+B19001_010,Inc45K_49K,"Houshold income $45,000 - $49,999",Inc_totpop,Inc25K_49K
+B19001_011,Inc50K_59K,"Houshold income $50,000 - $59,999",Inc_totpop,Inc50K_74K
+B19001_012,Inc60K_74K,"Houshold income $60,000 - $74,999",Inc_totpop,Inc50K_74K
+B19001_013,Inc75K_99K,"Houshold income $75,000 - $99,999",Inc_totpop,Inc75K_99K
+B19001_014,Inc100K_124K,"Houshold income $100,000 - $124,999",Inc_totpop,Inc100K_149K
+B19001_015,Inc125K_149K,"Houshold income $125,000 - $149,999",Inc_totpop,Inc100K_149K
+B19001_016,Inc150K_199K,"Houshold income $150,000 - $199,999",Inc_totpop,Inc150K_199K
+B19001_017,Inc_200K,"Houshold income > $200,000",Inc_totpop,Inc_200K
+C24070_001,Ind_totpop,Total population for industry,99999,Ind_totpop
+C24070_002,Ind_ag,Total population for ag forestry fishing and hunting,Ind_totpop,Ind_ag
+C24070_003,Ind_const,Population employed in construction,Ind_totpop,Ind_const
+C24070_004,Ind_manf,Population employed in manufacturing,Ind_totpop,Ind_manf
+C24070_005,Ind_whlsl,Population employed in wholesale trade,Ind_totpop,Ind_whlsl
+C24070_006,Ind_retail,Population employed in retail,Ind_totpop,Ind_retail
+C24070_007,Ind_trans,"Population employed in transportation, warehousing, and utilites",Ind_totpop,Ind_trans
+C24070_008,Ind_info,Population employed in information,Ind_totpop,Ind_info
+C24070_009,Ind_finan,"Population employed in finance, insurance, and real estate",Ind_totpop,Ind_finan
+C24070_010,Ind_prof,"Population employed in professional, scientific and management, administration, or waste services",Ind_totpop,Ind_prof
+C24070_011,Ind_edhlth,"Population employed in educational services, health care, or social assistance",Ind_totpop,Ind_edhlth
+C24070_012,Ind_arts,"Population employed in arts, entertainment, and recreation",Ind_totpop,Ind_arts
+C24070_014,Ind_pubad,Population employed in public administration,Ind_totpop,Ind_pubad
+C24070_013,Ind_other,Population employed in other services,Ind_totpop,Ind_other
+B16010_001,Ed_totpop,Total pop for education (>age 25),99999,Ed_totpop
+B16010_002,Ed_lesshs,Less than high school graduate,Ed_totpop,Ed_lesshs
+B16010_015,Ed_hsgrad,High school diploma or GED,Ed_totpop,Ed_hsgrad
+B16010_028,Ed_somecol,Some college or Associate's Degree,Ed_totpop,Ed_somecol
+B15003_001,Ed_totpop2,Total population for ed table pt. 2 (higher ed),99999,Ed_totpop2
+B15003_022,Ed_ba,Bachelor's degree,Ed_totpop2,Ed_ba
+B15003_023,Ed_ma,MA degree,Ed_totpop2,Ed_ma
+B15003_024,Ed_prof,Professional degree,Ed_totpop2,Ed_prof_doc
+B15003_025,Ed_doc,Doctoral degree,Ed_totpop2,Ed_prof_doc
+B17020_001E,Pov_total,Total population for poverty rate,99999,Pov_total
+B17020_002E,Pov_pop,Population below poverty line,Pov_total,Pov_pop
